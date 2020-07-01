@@ -31,7 +31,7 @@ section{
 .half-wid{
     width: 40%;
     float: left;
-    margin: 1%;
+    margin-left: 5%;
     padding: 2%;
 }
 .half-wid img{
@@ -71,7 +71,7 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 450px;
 }
 #my-work{
     background-image: url(images/latest-work-bg.png);
