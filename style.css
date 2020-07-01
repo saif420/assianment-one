@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,600&family=Open+Sans:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat', sans-serif;  
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding-bottom: 100px;
+}
+#header{
+    background-image: url(images/header-bg.png) !important;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 500px;
+    overflow: hidden;
+}
+.half-wid{
+    width: 40%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+}
+.half-wid img{
+    width: 100%;
+}
+.title{
+    color: rgb(154, 181, 230);
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.name{
+    color: tomato;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.text{
+    color: darkgray;
+    font-size: 18px;
+}
+.btn {
+    background-image: linear-gradient(45deg,#07f8c3 0%,#4289ff 100%);
+    border-radius: 5%;
+    border: 0px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+.btn:hover{
+    color: wheat;
+    background: lightcoral;
+    border: 1px solid rgb(97, 92, 92);
+}
+#bio{
+    background-image: url(images/biography-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#my-work{
+    background-image: url(images/latest-work-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.work-photo{
+    width: 100%;
+}
+.work-photo img{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+}
+#cilent{
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.cilent-text{
+    text-align: center;
+}
+.cilent-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 45px;
+}
+.fouder{
+    color: grey;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.cilen-text {
+    font-weight: 500;
+    padding: 0px 390px;
+}
+.mail{
+    background-color: tomato;
+}
+.mail {
+    background-image: linear-gradient(200deg,#07f8c3 0%,#4289ff 100%);
+    margin-top: 50px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 0px;
+}
+.mess{
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.address{
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.mail:hover{
+    border: 2px solid lightblue;
+    color: lightblue;
+    background: black;
+}
+.foot-text {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
